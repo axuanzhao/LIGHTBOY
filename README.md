@@ -11,9 +11,6 @@
 </div>
 
 <p align="center">
-  <a href="https://www.tiktok.com/lightboyofficial">
-    <img src="Images/tik-tok.png" alt="tiktok"  width="64" height="64">
-  </a>
   <a href="https://twitter.com/lightboyofficial">
     <img src="Images/twitter.png" alt="Twitter"  width="64" height="64">
   </a>
