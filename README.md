@@ -1,5 +1,5 @@
 <!--Project-->
-<h2 align="center">AgroPi</h2>  
+<h2 align="center">Team38:LIGHTBOY</h2>  
 <p align="center">
   <a href="https://github.com/axuanzhao/Voice-Recognition-Controlling">
     <img src="Images/logo.png" alt="Logo">
@@ -24,5 +24,3 @@
     <img src="Images/facebook.png" alt="Facebook"  width="64" height="64">
   </a>
 
-
-TEAM38 : Voice-Recognition control based on Smart home
