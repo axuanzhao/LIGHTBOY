@@ -1,5 +1,5 @@
 
-# ![alt text](Images/logo.png)Lightboy
+# ![alt text](Images/logo.svg)Lightboy
 
 Sensory light powered by intelligent voice recognition via Raspberry Pi
 
