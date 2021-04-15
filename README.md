@@ -1,5 +1,5 @@
 <!--Project-->
-<h2 align="center">Team38:LIGHTBOY</h2>  
+<h2 align="center">Team38 : LIGHT BOY </h2>  
 <p align="center">
   <a href="https://github.com/axuanzhao/Voice-Recognition-Controlling">
     <img src="Images/logo.png" alt="Logo">
