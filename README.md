@@ -1,5 +1,5 @@
 <!--Project-->
-<h2 align="center">Team38 : LIGHT BOY </h2>  
+<h2 align="center">LIGHT BOY </h2>  
 <p align="center">
   <a href="https://github.com/axuanzhao/Voice-Recognition-Controlling">
     <img src="Images/logo.png" alt="Logo">
@@ -24,4 +24,49 @@
     <img src="Images/facebook.png" alt="Facebook"  width="64" height="64">
   </a>
   
+<!-- Contents -->
+## Contents
+
+<ol>
+    <li><a href="#Description">About The Project</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+      <ul>
+      <li><a href="#hardware">io_server</a</li>
+        <li><a href="#software">webapp</a</li>
+      </ul>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#lightboy">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ol>
+
+
+<!--Description-->
+##Description
+
+<!--getting-started-->
+##Getting-started
+
+<!--hardware-->
+###'Hardware'
+
+<!--software-->
+###'Software'
+
+<!--usage-->
+##Usage
+<!--lightboy-->
+##Lightboy
+<!--contributing-->
+##Contributing
+
+<!--license-->
+##License
+
+<!--contact-->
+##Contact
+
+[Xuan Zhao]（https://github.com/axuanzhao）
+[Fangxin Tan] ()
 
