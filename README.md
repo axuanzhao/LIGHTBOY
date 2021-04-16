@@ -90,5 +90,5 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 [Fangxin Tan](https://github.com/FangxinTan)
 <br />
 [Shengning Zhang](https://github.com/ShengningZ)
-
-[Project-LightBoy](https://github.com/axuanzhao/Voice-Recognition-Controlling)
+<br />
+Project:[LightBoy](https://github.com/axuanzhao/Voice-Recognition-Controlling)
