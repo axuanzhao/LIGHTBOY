@@ -28,14 +28,14 @@
 ## Contents
 
 <ol>
-    <li><a href="#Description">About The Project</a></li>
+    <li><a href="#Description">Description</a></li>
     <li><a href="#getting-started">Getting Started</a></li>
       <ul>
-      <li><a href="#hardware">io_server</a</li>
-        <li><a href="#software">webapp</a</li>
+      <li><a href="#hardware">hardware</a</li>
+        <li><a href="#software">software</a</li>
       </ul>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#lightboy">Roadmap</a></li>
+    <li><a href="#lightboy">lightboy</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
