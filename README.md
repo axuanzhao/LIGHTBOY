@@ -53,12 +53,12 @@
 
 
 <!--hardware-->
-### 'Hardware'
+###`hardware`
 
 
 
 <!--software-->
-### 'Software'
+###`software`
 
 
 
