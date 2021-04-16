@@ -71,7 +71,7 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 [Xuan Zhao](https://github.com/axuanzhao)
 <br />
-[Fangxin Tan]()
+[Fangxin Tan](https://github.com/FangxinTan)
 <br />
 [Shengning Zhang]()
 
