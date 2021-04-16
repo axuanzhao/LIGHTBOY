@@ -59,15 +59,19 @@
 <!--lightboy-->
 ## Lightboy
 <!--contributing-->
-## ontributing
+## Contributing
+
+See `CONTRIBUTING` for more information.
 
 <!--license-->
 ## License
-
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <!--contact-->
 ## Contact
 
-Xuan Zhao
-Fangxin Tan
-Shengning Zhang
+[Xuan Zhao](https://github.com/axuanzhao)
+<br />
+[Fangxin Tan]()
+<br />
+[Shengning Zhang]()
 
