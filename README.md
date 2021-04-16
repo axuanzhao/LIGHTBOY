@@ -91,4 +91,4 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <br />
 [Shengning Zhang](https://github.com/ShengningZ)
 <br />
-Project : [LightBoy](https://github.com/axuanzhao/Voice-Recognition-Controlling)
+Project : [https://github.com/axuanzhao/Voice-Recognition-Controlling](https://github.com/axuanzhao/Voice-Recognition-Controlling)
