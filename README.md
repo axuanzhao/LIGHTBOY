@@ -43,30 +43,31 @@
 
 
 <!--Description-->
-##Description
+## Description
 
 <!--getting-started-->
-##Getting-started
+## Getting-started
 
 <!--hardware-->
-###'Hardware'
+### 'Hardware'
 
 <!--software-->
-###'Software'
+### 'Software'
 
 <!--usage-->
-##Usage
+## Usage
 <!--lightboy-->
-##Lightboy
+## Lightboy
 <!--contributing-->
-##Contributing
+## ontributing
 
 <!--license-->
-##License
+## License
 
 <!--contact-->
-##Contact
+## Contact
 
-[Xuan Zhao]（https://github.com/axuanzhao）
-[Fangxin Tan] ()
+Xuan Zhao
+Fangxin Tan
+Shengning Zhang
 
