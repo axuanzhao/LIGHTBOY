@@ -73,5 +73,5 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 <br />
 [Fangxin Tan](https://github.com/FangxinTan)
 <br />
-[Shengning Zhang]()
+[Shengning Zhang](https://github.com/ShengningZ)
 
