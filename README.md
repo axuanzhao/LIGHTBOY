@@ -53,8 +53,10 @@ The project is carried out in three parts, the first part is speech recognition,
 
 <!--hardware-->
 ### `hardware`
-Sensors,Breadboard,LEDs,Microphone.
-
+![image](https://user-images.githubusercontent.com/78051838/115126364-68787d80-9fc6-11eb-8f23-a416be30eed2.png)RaspberryPi 4B
+![image](https://user-images.githubusercontent.com/78051838/115126369-6d3d3180-9fc6-11eb-87d0-081e4e081139.png)LEDS
+![image](https://user-images.githubusercontent.com/78051838/115126370-6e6e5e80-9fc6-11eb-90b0-db29e1b3eb00.png)Microphone with usb interface
+![image](https://user-images.githubusercontent.com/78051838/115126374-70382200-9fc6-11eb-8fb0-130eae231bc4.png)Breadboard and wires
 
 <!--software-->
 ### `software`
