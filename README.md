@@ -44,17 +44,17 @@
 
 <!--Description-->
 ## Description
-
+The product uses Baidu AI API for voice recognition, converts voice recognition into text and then uses CPP code to control the lights, as well as sensors to sense the user's movement when entering the door to turn on the lights automatically.
 
 
 <!--getting-started-->
 ## Getting-started
-
+The project was carried out in three parts, the use of sensors, the invocation of speech recognition and multi-threaded control.
 
 
 <!--hardware-->
 ### `hardware`
-
+Sensors,Breadboard,LEDs,Microphone.
 
 
 <!--software-->
