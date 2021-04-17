@@ -53,11 +53,11 @@ The project is carried out in three parts, the first part is speech recognition,
 
 <!--hardware-->
 ### `hardware`
-1.A Raspberry Pi 4B
-2.LEDS
-3.A microphone with USB interface
-4.A breadboard and wires
-5.A infrared sensor
+1.A Raspberry Pi 4B  
+2.LEDS  
+3.A microphone with USB interface  
+4.A breadboard and wires  
+5.A infrared sensor  
 <img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="40%" height="40%">
 <!--software-->
 ### `software`
