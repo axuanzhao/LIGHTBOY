@@ -44,13 +44,12 @@
 
 <!--Description-->
 ## Description
-The product uses Baidu AI API for voice recognition, converts voice recognition into text and then uses CPP code to control the lights, as well as sensors to sense the user's movement when entering the door to turn on the lights automatically.
+Raspberry Pi can make the home smarter. With the Raspberry Pi, it is the equivalent of adding a small computer to the home system to act as the brain of the home system. Take the lighting system for example, in order to make the home lighting more convenient, we implement the function of voice recognition to control the lighting through the Raspberry Pi, and the user's movement can be sensed through the sensors, and the lights will automatically turn on when the user enters the room and other actions. Bringing a smarter experience for the user. Making room lighting control more convenient.
 
 
 <!--getting-started-->
 ## Getting-started
-The project was carried out in three parts, the use of sensors, the invocation of speech recognition and multi-threaded control.
-
+The project is carried out in three parts, the first part is speech recognition, calling the Baidu API for speech-to-text recognition of speech, and the recognized commands are used for lighting control. The second part is the use of sensors, sensing human movement through infrared sensors. The third part is the multi-threaded control, which allows the use of sensors and the control of voice recognition to take place simultaneously.
 
 <!--hardware-->
 ### `hardware`
