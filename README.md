@@ -17,7 +17,7 @@
   <a href="https://youtube.com/lightboyofficial">
     <img src="Images/youtube.png" alt="YouTube"  width="64" height="64">
   </a>
-  <a href="https://www.instagram.com/lightboyofficial/">
+  <a href="https://www.instagram.com/lightboy_2021/">
     <img src="Images/instagram.png" alt="Instagram"  width="64" height="64">
   </a>
   <a href="https://www.facebook.com/lightboyofficial">
