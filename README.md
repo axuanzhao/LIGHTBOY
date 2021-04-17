@@ -54,17 +54,18 @@ The project is carried out in three parts, the first part is speech recognition,
 <!--hardware-->
 ### `hardware`
 1.Raspberry Pi 4B
-![image](https://user-images.githubusercontent.com/78051838/115126500-577c3c00-9fc7-11eb-9c0b-18ad338ea47f.png)
+<img src="https://user-images.githubusercontent.com/78051838/115126500-577c3c00-9fc7-11eb-9c0b-18ad338ea47f.png" width="50%" height="50%">
 
 2.LEDS
-![image](https://user-images.githubusercontent.com/78051838/115126516-7d094580-9fc7-11eb-99da-15f1fa84db44.png)
+<img src="https://user-images.githubusercontent.com/78051838/115126500-577c3c00-9fc7-11eb-9c0b-18ad338ea47f.png" width="50%" height="50%">
 
 3.Microphone with USB interface
 ![image](https://user-images.githubusercontent.com/78051838/115126535-a1652200-9fc7-11eb-8e82-82ab3607ad8f.png)
+<img src="https://user-images.githubusercontent.com/78051838/115126535-a1652200-9fc7-11eb-8e82-82ab3607ad8f.png" width="50%" height="50%">
 
 4.Breadboard and wires
 ![image](https://user-images.githubusercontent.com/78051838/115126551-c9ed1c00-9fc7-11eb-90ae-e4e5c3bf44a6.png)
-
+<img src="https://user-images.githubusercontent.com/78051838/115126535-a1652200-9fc7-11eb-8e82-82ab3607ad8f.png" width="50%" height="50%">
 <!--software-->
 ### `software`
 Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
