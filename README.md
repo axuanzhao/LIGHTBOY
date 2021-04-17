@@ -53,10 +53,13 @@ The project is carried out in three parts, the first part is speech recognition,
 
 <!--hardware-->
 ### `hardware`
-Raspberry Pi 4B
-LEDS
-Microphone with USB interface
-Breadboard and wires
+1
+1
+1
+1Raspberry Pi 4B
+LEDS
+Microphone with USB interface
+Breadboard and wires
 
 <!--software-->
 ### `software`
