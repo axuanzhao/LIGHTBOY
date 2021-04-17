@@ -58,7 +58,7 @@ Sensors,Breadboard,LEDs,Microphone.
 
 <!--software-->
 ### `software`
-
+Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 
 
 <!--usage-->
