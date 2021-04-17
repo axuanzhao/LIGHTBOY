@@ -45,11 +45,14 @@
 <!--Description-->
 ## Description
 Raspberry Pi can make the home smarter. With the Raspberry Pi, it is the equivalent of adding a small computer to the home system to act as the brain of the home system. Take the lighting system for example, in order to make the home lighting more convenient, we implement the function of voice recognition to control the lighting through the Raspberry Pi, and the user's movement can be sensed through the sensors, and the lights will automatically turn on when the user enters the room and other actions. Bringing a smarter experience for the user. Making room lighting control more convenient.
-
+The project is carried out in three parts, the first part is speech recognition, calling the Baidu API for speech-to-text recognition of speech, and the recognized commands are used for lighting control. The second part is the use of sensors, sensing human movement through infrared sensors. The third part is the multi-threaded control, which allows the use of sensors and the control of voice recognition to take place simultaneously.
 
 <!--getting-started-->
 ## Getting-started
-The project is carried out in three parts, the first part is speech recognition, calling the Baidu API for speech-to-text recognition of speech, and the recognized commands are used for lighting control. The second part is the use of sensors, sensing human movement through infrared sensors. The third part is the multi-threaded control, which allows the use of sensors and the control of voice recognition to take place simultaneously.
+Turn on the Equipment  
+Run the program and speak/move in front of the LightBoy  
+Then it works as your order  
+When you move in front of the sensor(some particular position in your room),the light turns on itself
 
 <!--hardware-->
 ### `hardware`
