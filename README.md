@@ -11,15 +11,16 @@
 </div>
 
 <p align="center">
+    <a href="https://www.instagram.com/lightboy_2021/">
+    <img src="Images/instagram.png" alt="Instagram"  width="64" height="64">
+  </a>
   <a href="https://twitter.com/LightBo30129343">
     <img src="Images/twitter.png" alt="Twitter"  width="64" height="64">
   </a>
   <a href="https://www.youtube.com/channel/UCQwc7ckxd-EJKTK4yuo6-4g">
     <img src="Images/youtube.png" alt="YouTube"  width="64" height="64">
   </a>
-  <a href="https://www.instagram.com/lightboy_2021/">
-    <img src="Images/instagram.png" alt="Instagram"  width="64" height="64">
-  </a>
+
   
   
 <!-- Contents -->
