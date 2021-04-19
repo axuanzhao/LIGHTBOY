@@ -108,12 +108,44 @@ The lights can be controlled from webpage. To do that, use a browser to visit th
 
 <img src="https://user-images.githubusercontent.com/77740843/115274329-70582f00-a138-11eb-9703-20c5ceae0e1a.png" width="50%" height="50%">
 
+
+
 <!--Speech Recognition-->
-### `sense-light`
-Required libraries:
-* Curl
-    wget http://curl.haxx.se/download/curl-7.57.0.tar.gz
-     
+### `Speech Recognition`
+
+Required Libraries  
+* curl
+
+      sudo apt-get install libcurl4-openssl-dev
+
+* WiringPi(Install the latest version)
+
+      sudo apt-get install wiringpi
+      
+* Jsoncpp
+
+      sudo apt-get install libjsoncpp-dev
+      
+* OpenSSL
+
+      wget https://www.openssl.org/source/openssl-1.1.1d.tar.gz
+      tar zxf openssl-1.1.1d.tar.gz
+      cd openssl-1.1.1d
+      ./config --prefix=/usr/local/openssl --openssldir=/usr/local/openssl 
+      make -j4 && make install
+Then,we need to set up the microphone  
+
+      sudo apt-get -y  install  alsa-utils   pulseseaudio
+      arecord  -L
+
+ After seeting up the environment, use following commands:
+ 
+      cd /usr/code/sdk-demo-master/speech/cpp
+      sudo su
+      ./main
+      
+Then the device could record your words and recognize it into English words,then run commands and control lights.
+
 <!--lightboy-->
 ## Lightboy
 
