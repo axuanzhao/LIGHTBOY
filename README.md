@@ -55,8 +55,7 @@ In order to successfully run the next program, you need to prepare the software 
 3.A microphone with USB interface  
 4.A breadboard and wires  
 5.LEDs
-
-<img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="70%" height="70%">
 
 <!--software-->
 ### `software`
@@ -140,7 +139,13 @@ Then the device could record your words and recognize it into English words,then
 <!--contributing-->
 ## Contributing
 
-See `CONTRIBUTING` for more information.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 <!--license-->
 ## License
