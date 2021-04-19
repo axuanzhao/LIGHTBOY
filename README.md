@@ -51,7 +51,7 @@ In order to successfully run the next program, you need to prepare the software 
 <!--hardware-->
 ### `hardware`
 1.A Raspberry Pi 4B  
-2.A infrared sensor (HC-SR501) 
+2.A infrared sensor (HC-SR501)  
 3.A microphone with USB interface  
 4.A breadboard and wires  
 5.LEDs
