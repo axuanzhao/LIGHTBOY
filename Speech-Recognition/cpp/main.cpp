@@ -50,42 +50,49 @@ void ASR(aip::Speech* client) {
     Json::Value result = client->recognize(file_content, "pcm",16000, options1);
     std::cout << "speech recognition:" << std::endl << result.toStyledString();
 
-    pinMode(1,PWM_OUTPUT);
+     pinMode(1,PWM_OUTPUT);
+    //pinMode(1,OUTPUT);
     if(strstr(result.toStyledString().c_str(),"turn on")!=NULL)
     {
-      pwmWrite(1,1024);
+     pwmWrite(1,1024);
+      //digitalWrite(1,HIGH);
       cur_light=1024;
+      std::cout << "LED TURN ON Worked" << std::endl;
     }
     else  if(strstr(result.toStyledString().c_str(),"turn off")!=NULL)
-{
-pwmWrite(1,0);
-cur_light=0;
-}
-else if(strstr(result.toStyledString().c_str(),"light up")!=NULL)
-{
-if(cur_light>=724)
-{ 
-cur_light =1024;
-}
-else
-{ 
-cur_light+=300;
-}
- pwmWrite(1,cur_light);
-}
-else if(strstr(result.toStyledString().c_str(),"light down")!=NULL)
-{ 
-if(cur_light>=300)
-{
-cur_light -=300;
-}
-else
-{
-cur_light=0;
-}
- pwmWrite(1,cur_light);
-
-}
+    {
+     pwmWrite(1,0);
+     //digitalWrite(1,LOW);
+     cur_light=0;
+     std::cout << "Turn off Worked" << std::endl;
+     }
+    else if(strstr(result.toStyledString().c_str(),"turn up")!=NULL)
+     {
+       if(cur_light=1024)
+       { 
+       std::cout << "hold light" << std::endl;
+       cur_light =1024;
+       }
+       else
+       { 
+       std::cout << "dim lighter" << std::endl;
+       cur_light=200;
+       }
+     pwmWrite(1,cur_light);
+       }
+else if(strstr(result.toStyledString().c_str(),"turn down")!=NULL)
+      { 
+       if(cur_light=1024)
+        {
+         cur_light=200;
+        }
+      else
+       {
+       std::cout << "dim to 0" << std::endl;
+       cur_light=0;
+       }
+     pwmWrite(1,cur_light);
+     }
 else
 {
    std::cout << "FAILED" << std::endl << result.toStyledString();
@@ -94,6 +101,7 @@ else
 
    // pwmWrite(1,100);
 }
+
 
 /**
  * ASR
