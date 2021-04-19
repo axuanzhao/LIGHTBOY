@@ -67,7 +67,8 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 
 <!--usage-->
 ## Usage
-### `sense light`
+<!--sense-light-->
+### `sense-light`
 Required libraries:
 * WiringPi(GPIO access library)
 
@@ -99,7 +100,7 @@ After seeting up the environment, use following commands:
     cd deploy/script
     ./run-timer-sense-light.sh
 
-The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operate can be set.
+The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operates can be set.
 
 
 <!--lightboy-->
