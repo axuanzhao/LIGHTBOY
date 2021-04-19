@@ -71,25 +71,25 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 <!--sense-light-->
 ### `sense-light`
 Required libraries:
-* WiringPi(GPIO access library)
+1. WiringPi(GPIO access library)
 
       sudo apt-get install wiringpi
       
-    or try this:
+    if code above fails, try this:
       
       git clone git://git.drogon.net/wiringPi
       cd wiringPi
       ./build
 
-* glog(Google logging)
+2. glog(Google logging)
 
       sudo apt-get install libgoogle-glog-dev
 
-* libconfig(Configuration File Library)
+3. libconfig(Configuration File Library)
 
       sudo apt-get install libconfig-dev
 
-* gtest(Google's C++ test)
+4. gtest(Google's C++ test)
 
       sudo apt-get install libgtest-dev
 
@@ -99,7 +99,7 @@ After seeting up the environment, use following commands:
     make
     make install
     
-You can also run an unit test
+You can also run an unit test(optional)
 
     make test
     
