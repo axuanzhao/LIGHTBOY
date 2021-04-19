@@ -86,13 +86,13 @@ Required libraries:
 
       sudo apt-get install libgoogle-glog-dev
 
-* libconfig(C/C++ Configuration File Library)
+* libconfig(Configuration File Library)
 
       sudo apt-get install libconfig-dev
 
-* gtest(Google's C++ test framework) - to run the unit tests in this project
+* gtest(Google's C++ test)
 
-    sudo apt-get install libgtest-dev
+      sudo apt-get install libgtest-dev
 
 After seeting up the environment, use following commands:
 
