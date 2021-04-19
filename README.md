@@ -140,9 +140,9 @@ Then,we need to set up the microphone
 
  After seeting up the environment, use following commands:
  
-      cd /usr/code/sdk-demo-master/speech/cpp
-      sudo su
-      ./main
+       cd /usr/code/sdk-demo-master/speech/cpp
+       sudo su
+       ./main
       
 Then the device could record your words and recognize it into English words,then run commands and control lights.
 
