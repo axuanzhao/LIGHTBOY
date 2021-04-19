@@ -155,7 +155,7 @@ Distributed under the  Apache-2.0 License. See `LICENSE` for more information.
 <!--contact-->
 ## Contact
 
-[Xuan Zhao - Web design and servers](https://github.com/axuanzhao)
+[Xuan Zhao - Web design and servers programming](https://github.com/axuanzhao)
 <br />
 [Fangxin Tan - Multithreaded part of real-time embedded programming](https://github.com/FangxinTan)
 <br />
