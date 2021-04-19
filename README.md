@@ -56,9 +56,7 @@ In order to successfully run the next program, you need to prepare the software 
 4.A breadboard and wires  
 5.LEDs  
 
-
-<img src="![image](https://user-images.githubusercontent.com/78051838/115309322-035a8e80-a164-11eb-97f9-0226fe20be32.png)
-" width="70%" height="70%">
+<img src="https://user-images.githubusercontent.com/78051838/115309322-035a8e80-a164-11eb-97f9-0226fe20be32.png" width="70%" height="70%">
 
 <!--software-->
 ### `software`
