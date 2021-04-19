@@ -70,6 +70,7 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 ### `sense light`
 Required libraries:
 * WiringPi(GPIO access library)
+
     sudo apt-get install wiringpi
  or
     git clone git://git.drogon.net/wiringPi
