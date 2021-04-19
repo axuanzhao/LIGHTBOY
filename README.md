@@ -71,19 +71,21 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 Required libraries:
 * WiringPi(GPIO access library)
 
-    sudo apt-get install wiringpi
+      sudo apt-get install wiringpi
+      
  or
-    git clone git://git.drogon.net/wiringPi
-    cd wiringPi
-    ./build
+ 
+      git clone git://git.drogon.net/wiringPi
+      cd wiringPi
+      ./build
 
 * glog(Google logging)
 
-    sudo apt-get install libgoogle-glog-dev
+      sudo apt-get install libgoogle-glog-dev
 
 * libconfig(C/C++ Configuration File Library)
 
-    sudo apt-get install libconfig-dev
+      sudo apt-get install libconfig-dev
 
 * gtest(Google's C++ test framework) - to run the unit tests in this project
 
