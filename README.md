@@ -68,6 +68,7 @@ The part of the software installation is omitted, you can go to the official web
 ## Usage
 <!--sense-light-->
 ### `sense-light`
+####`Software`
 Before compiling this project, we need some software packages installed on the Raspberry Pi(besides the basic development tools such as gcc, etc.).
 Required libraries:
 * WiringPi(GPIO access library)
