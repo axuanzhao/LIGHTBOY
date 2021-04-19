@@ -73,8 +73,8 @@ Required libraries:
 
       sudo apt-get install wiringpi
       
-or
- 
+      OR
+      
       git clone git://git.drogon.net/wiringPi
       cd wiringPi
       ./build
