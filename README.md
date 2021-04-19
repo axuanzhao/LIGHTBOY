@@ -155,10 +155,10 @@ Distributed under the  Apache-2.0 License. See `LICENSE` for more information.
 <!--contact-->
 ## Contact
 
-[Xuan Zhao](https://github.com/axuanzhao)
+[Xuan Zhao - Web design and servers](https://github.com/axuanzhao)
 <br />
-[Fangxin Tan](https://github.com/FangxinTan)
+[Fangxin Tan - Multithreaded part of real-time embedded programming](https://github.com/FangxinTan)
 <br />
-[Shengning Zhang](https://github.com/ShengningZ)
+[Shengning Zhang - Speech Recognition Programming](https://github.com/ShengningZ)
 <br />
 Project : [https://github.com/axuanzhao/Voice-Recognition-Controlling](https://github.com/axuanzhao/Voice-Recognition-Controlling)
