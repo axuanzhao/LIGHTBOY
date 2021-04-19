@@ -150,7 +150,7 @@ Contributions are what make the open source community such an amazing place to b
 <!--license-->
 ## License
 
-Distributed under the  Apache-2.0 License. See `LICENSE` for more information.
+Distributed under the  Apache-2.0 License.  See `LICENSE` for more information.
 
 <!--contact-->
 ## Contact
