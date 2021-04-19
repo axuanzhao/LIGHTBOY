@@ -1,0 +1,4 @@
+Log file created at: 2021/04/19 16:27:58
+Running on machine: raspberrypi
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+E0419 16:27:58.336424  1289 thread_web_handler.h:187] 2021-04-19	Cannot bind to 80

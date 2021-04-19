@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Control Panel for Human Sense Light</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="classic.css">
+  <link rel="stylesheet" type="text/css" href="classic.time.css">
+  <link rel="stylesheet" href="radiobox.css">
+  <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="picker.js"></script>
+  <script type="text/javascript" src="picker.time.js"></script>
+  <script type="text/javascript" src="legacy.js"></script>
+</head>
+<body>
+  <div class="content">
+    <h1>Light Mode Set</h1>
+    <input id="radio_light_mode_on" type="radio" name="radio" value="0"><label for="radio_light_mode_on"><span><span></span></span>ON</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="radio_light_mode_off" type="radio" name="radio" value="1"><label for="radio_light_mode_off"><span><span></span></span>OFF</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input id="radio_light_mode_auto" type="radio" name="radio" value="2"><label for="radio_light_mode_auto"><span><span></span></span>AUTO</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <p></p>
+
+    <hr />
+    <h1>Time Range Set</h1>
+    <h3>(AUTO mode, only in following time range the lights can be triggered by human movement)</h3>
+    <button id="add_time_range" type="button">Add Time Range</button>
+    <button id="save_time_range" type="button">Save Time Range</button>
+    <div id="time_range_operation_result" style="display:none">&nbsp;</div>
+    <p></p>
+    <div class="input_fields_wrap">
+      <input class="js__timepicker" type="text" size="10">
+      <label> ~ </label>
+      <input class="js__timepicker" type="text" size="10">
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+Log file created at: 2021/04/19 16:30:51
+Running on machine: raspberrypi
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0419 16:30:51.657923  1757 config_loader.cpp:94] 2021-04-19	Web root path is [/home/pi/raspberry-pi/gpio/timer-sense-light/deploy/web-root]
+I0419 16:30:51.659672  1757 config_loader.cpp:154] 2021-04-19	Read a comment line, skip
+I0419 16:30:51.659821  1757 config_loader.cpp:174] 2021-04-19	LED can be lighten up between [22:00~23:59]
+I0419 16:30:51.659916  1757 config_loader.cpp:174] 2021-04-19	LED can be lighten up between [00:00~06:00]
+I0419 16:30:51.660797  1758 thread_web_handler.h:200] 2021-04-19	Start web server on port [80]
+I0419 16:30:51.661123  1759 thread_hardware_control.h:50] 2021-04-19	Hardware controlling thread starts to work...
+I0419 16:31:24.761649  1758 thread_web_handler.h:162] 2021-04-19	Will get time range...
+I0419 16:31:24.763119  1758 thread_web_handler.h:113] 2021-04-19	Time range read: 00:00 06:00,22:00 23:59
+I0419 16:31:24.763533  1758 thread_web_handler.h:157] 2021-04-19	Will get mode...
+I0419 16:31:24.763617  1758 thread_web_handler.h:38] 2021-04-19	Mode read: 2
+I0419 16:31:27.782519  1758 thread_web_handler.h:66] 2021-04-19	Switch to mode ON
+I0419 16:31:33.333331  1758 thread_web_handler.h:73] 2021-04-19	Switch to mode OFF
+I0419 16:31:35.744115  1758 thread_web_handler.h:73] 2021-04-19	Switch to mode OFF
+I0419 16:31:35.863605  1758 thread_web_handler.h:66] 2021-04-19	Switch to mode ON
+I0419 16:31:37.457710  1758 thread_web_handler.h:80] 2021-04-19	Switch to mode AUTO
+I0419 16:31:54.910923  1758 thread_web_handler.h:165] 2021-04-19	Will save time range...
