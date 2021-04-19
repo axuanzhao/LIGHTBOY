@@ -1,8 +1,6 @@
 /**
  * This JS is responsible for sending request to the backend program running on RPi & processing 
  * the response from it.
- *
- * @author Darran Zhang @ codelast.com
  */
 
 $(document).ready(function() {
