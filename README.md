@@ -106,7 +106,7 @@ switch into root before run the programm
 
 The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operates can be set.
 
-<img src="https://user-images.githubusercontent.com/77740843/115274329-70582f00-a138-11eb-9703-20c5ceae0e1a.png" width="40%" height="40%">
+<img src="https://user-images.githubusercontent.com/77740843/115274329-70582f00-a138-11eb-9703-20c5ceae0e1a.png" width="50%" height="50%">
 
 
 <!--lightboy-->
