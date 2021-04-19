@@ -23,7 +23,7 @@
   
   
 <!-- Contents -->
-## Contents
+## Table Of Contents
 
 <ol>
     <li><a href="#Description">Description</a></li>
@@ -46,10 +46,7 @@ Raspberry Pi can make your home smarter. It's the equivalent of adding a small c
 
 <!--getting-started-->
 ## Getting-started
-Turn on the Equipment  
-Run the program and speak/move in front of the LightBoy  
-Then it works as your order  
-When you move in front of the sensor(some particular position in your room),the light turns on itself
+In order to successfully run the next program, you need to prepare the software and hardware in advance.
 
 <!--hardware-->
 ### `hardware`
@@ -75,7 +72,7 @@ Required libraries:
 
       sudo apt-get install wiringpi
       
-    if code above fails, try this:
+    or try this:
       
       git clone git://git.drogon.net/wiringPi
       cd wiringPi
@@ -98,14 +95,9 @@ After seeting up the environment, use following commands:
     cd ~/LIGHTBOY/SenseLight
     make
     make install
-    
-You can also run an unit test(optional)
-
-    make test
-    
+    cd deploy/script
 switch into root before run the programm
 
-     cd deploy/script
     ./run-timer-sense-light.sh
 
 The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operates can be set.
