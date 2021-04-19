@@ -58,7 +58,7 @@ When you move in front of the sensor(some particular position in your room),the 
 2.LEDS  
 3.A microphone with USB interface  
 4.A breadboard and wires  
-5.A infrared sensor  
+5.A infrared sensor (HC-SR501)
 <img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="40%" height="40%">
 <!--software-->
 ### `software`
