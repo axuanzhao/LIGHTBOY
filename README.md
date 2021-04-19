@@ -99,7 +99,7 @@ switch into root before run the programm
 
 The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 192.168.16.108. threemodes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operates can be set.
 
-<img src="SenseLight/circuit-diagram/web_ui_1.png" width="50%" height="50%">
+<img src="SenseLight/circuit-diagram/web_ui_1.png" width="60%" height="60%">
 
 
 
