@@ -1,12 +1,12 @@
 <!--Project-->
 <h2 align="center">LIGHT BOY </h2>  
 <p align="center">
-  <a href="https://github.com/axuanzhao/Voice-Recognition-Controlling">
+  <a href="https://github.com/axuanzhao/LIGHTBOY">
     <img src="Images/logo.png" alt="Logo">
   </a>
   
   <p align="center">
-    Sensory light powered by intelligent voice recognition via Raspberry Pi 
+    Intelligent body sensing LED via Raspberry Pi 
     <br />
 </div>
 
@@ -42,8 +42,7 @@
 
 <!--Description-->
 ## Description
-Raspberry Pi can make the home smarter. With the Raspberry Pi, it is the equivalent of adding a small computer to the home system to act as the brain of the home system. Take the lighting system for example, in order to make the home lighting more convenient, we implement the function of voice recognition to control the lighting through the Raspberry Pi, and the user's movement can be sensed through the sensors, and the lights will automatically turn on when the user enters the room and other actions. Bringing a smarter experience for the user. Making room lighting control more convenient.
-The project is carried out in three parts, the first part is speech recognition, calling the Baidu API for speech-to-text recognition of speech, and the recognized commands are used for lighting control. The second part is the use of sensors, sensing human movement through infrared sensors. The third part is the multi-threaded control, which allows the use of sensors and the control of voice recognition to take place simultaneously.
+Raspberry Pi can make your home smarter. It's the equivalent of adding a small computer to the home system to act as the brain of the home system. Taking lighting system as an example, in order to make home lighting more convenient, a Raspberry Pi based body sensing led with controllable switching time can be turned on and off through the Web UI interface and set into automatic mode, in which specific working time period can be set. At the same time, the voice recognition function controls the light on, for the user to bring a more intelligent experience. Make indoor lighting control more convenient. The project is mainly divided into three parts. The first part is the use of sensors. LED automatically lights up after sensing human movement through infrared sensors. The second part is the multi-threaded part, which controls the LED through the web page. The third part is speech recognition, call Baidu API for speech to text recognition, the recognition of the command for lighting control. At the same time, we can also control the lights through Siri.
 
 <!--getting-started-->
 ## Getting-started
