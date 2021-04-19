@@ -100,6 +100,8 @@ After seeting up the environment, use following commands:
     make
     make install
     cd deploy/script
+switch into root before run the programm
+
     ./run-timer-sense-light.sh
 
 The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operates can be set.
