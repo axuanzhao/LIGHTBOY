@@ -51,32 +51,28 @@ In order to successfully run the next program, you need to prepare the software 
 <!--hardware-->
 ### `hardware`
 1.A Raspberry Pi 4B  
-2.LEDS  
+2.A infrared sensor (HC-SR501) 
 3.A microphone with USB interface  
 4.A breadboard and wires  
-5.A infrared sensor (HC-SR501)
+5.LEDs
 
 <img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="40%" height="40%">
 
 <!--software-->
 ### `software`
-Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
+Geany,WinSCP,Putty,VNC viewer,VSCODE.
+The part of the software installation is omitted, you can go to the official website to download it yourself.
 
 
 <!--usage-->
 ## Usage
 <!--sense-light-->
 ### `sense-light`
+Before compiling this project, we need some software packages installed on the Raspberry Pi(besides the basic development tools such as gcc, etc.).
 Required libraries:
 * WiringPi(GPIO access library)
 
       sudo apt-get install wiringpi
-      
-    or try this:
-      
-      git clone git://git.drogon.net/wiringPi
-      cd wiringPi
-      ./build
 
 * glog(Google logging)
 
@@ -113,10 +109,6 @@ Required Libraries
 * curl
 
       sudo apt-get install libcurl4-openssl-dev
-
-* WiringPi(Install the latest version)
-
-      sudo apt-get install wiringpi
       
 * Jsoncpp
 
@@ -141,10 +133,6 @@ Then,we need to set up the microphone
        ./main
       
 Then the device could record your words and recognize it into English words,then run commands and control lights.
-
-<!--lightboy-->
-## Lightboy
-
 
 
 <!--contributing-->
