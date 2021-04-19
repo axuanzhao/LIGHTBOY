@@ -72,6 +72,9 @@ For timer-sense-light, use following commands:
     cd /LIGHTBOY/gpio/timer-sense-light/deploy/script
     ./run-timer-sense-light.sh
 
+The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.)
+
+
 <!--lightboy-->
 ## Lightboy
 
