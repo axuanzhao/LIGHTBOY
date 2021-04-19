@@ -91,14 +91,15 @@ Required libraries:
 
     sudo apt-get install libgtest-dev
 
+After seeting up the environment, use following commands:
 
-
-For timer-sense-light, use following commands:
-
-    cd 
+    cd ~/LIGHTBOY/SenseLight
+    make
+    make install
+    cd deploy/script
     ./run-timer-sense-light.sh
 
-The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.)
+The lights can be controlled from webpage. To do that, use a browser to visit the webpage. (Assume the ip address of my RaspberryPi is 100.76.149.76.) There are three modes, ON, OFF, and Auto. When in AUTO mode, time interval where the sense-light operate can be set.
 
 
 <!--lightboy-->
