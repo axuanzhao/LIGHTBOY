@@ -71,7 +71,7 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 <!--sense-light-->
 ### `sense-light`
 Required libraries:
-1. WiringPi(GPIO access library)
+* WiringPi(GPIO access library)
 
       sudo apt-get install wiringpi
       
@@ -81,15 +81,15 @@ Required libraries:
       cd wiringPi
       ./build
 
-2. glog(Google logging)
+* glog(Google logging)
 
       sudo apt-get install libgoogle-glog-dev
 
-3. libconfig(Configuration File Library)
+* libconfig(Configuration File Library)
 
       sudo apt-get install libconfig-dev
 
-4. gtest(Google's C++ test)
+* gtest(Google's C++ test)
 
       sudo apt-get install libgtest-dev
 
