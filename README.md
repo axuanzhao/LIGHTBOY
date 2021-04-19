@@ -54,8 +54,11 @@ In order to successfully run the next program, you need to prepare the software 
 2.A infrared sensor (HC-SR501)  
 3.A microphone with USB interface  
 4.A breadboard and wires  
-5.LEDs
-<img src="https://user-images.githubusercontent.com/78051838/115126853-120d3e00-9fca-11eb-9d82-3e28bb1365fa.png" width="70%" height="70%">
+5.LEDs  
+
+
+<img src="![image](https://user-images.githubusercontent.com/78051838/115309322-035a8e80-a164-11eb-97f9-0226fe20be32.png)
+" width="70%" height="70%">
 
 <!--software-->
 ### `software`
