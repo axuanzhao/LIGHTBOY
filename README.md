@@ -108,7 +108,12 @@ The lights can be controlled from webpage. To do that, use a browser to visit th
 
 <img src="https://user-images.githubusercontent.com/77740843/115274329-70582f00-a138-11eb-9703-20c5ceae0e1a.png" width="50%" height="50%">
 
-
+<!--Speech Recognition-->
+### `sense-light`
+Required libraries:
+* Curl
+    wget http://curl.haxx.se/download/curl-7.57.0.tar.gz
+     
 <!--lightboy-->
 ## Lightboy
 
