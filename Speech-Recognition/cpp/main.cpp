@@ -1,4 +1,4 @@
-// C++SDK root
+// Please replace the C++SDK path you downloaded
 #include "/usr/code/sdk-demo-master/speech/aip-cpp-sdk-4.15.4/speech.h"
 #include "stdio.h"
 #include "unistd.h"
@@ -12,13 +12,12 @@ void TTS(aip::Speech* client);
 
 int main()
 {
-    // 
+    //Be sure to replace the Api Key and Secret Key of the new Baidu Voice app in the Baidu Cloud console
     aip::Speech * client = new aip::Speech("23982791", "F1PcszoB1OGDhwlXma3xh8PY", "PkO5RuUiPo2Tp3rvH1ku5PGcW8niDoOd");
     system("arecord -D \"plughw:1,0\" -d 3 -f S16_LE -r 16000 -c 1 -t wav temp.wav"); 
 //    sleep(5);
     system("ffmpeg -y  -i temp.wav  -acodec pcm_s16le -f s16le -ac 1 -ar 16000 16k.pcm");
   //  sleep(1);
-    // 
     client->setDebug(false);
     wiringPiSetup();
 //    softPwmCreate(1,0,100);    
@@ -38,7 +37,7 @@ int main()
 }
 
 /**
- * ASR
+ * ASR Speech Recognition
  */
 int cur_light=100;
 void ASR(aip::Speech* client) {
@@ -51,18 +50,18 @@ void ASR(aip::Speech* client) {
     std::cout << "speech recognition:" << std::endl << result.toStyledString();
 
      pinMode(1,PWM_OUTPUT);
-    //pinMode(1,OUTPUT);
+    //pinMode(1,OUTPUT);used for test
     if(strstr(result.toStyledString().c_str(),"turn on")!=NULL)
     {
      pwmWrite(1,1024);
-      //digitalWrite(1,HIGH);
+      //digitalWrite(1,HIGH);used for test
       cur_light=1024;
       std::cout << "LED TURN ON Worked" << std::endl;
     }
     else  if(strstr(result.toStyledString().c_str(),"turn off")!=NULL)
     {
      pwmWrite(1,0);
-     //digitalWrite(1,LOW);
+     //digitalWrite(1,LOW);used for test
      cur_light=0;
      std::cout << "Turn off Worked" << std::endl;
      }
@@ -104,7 +103,7 @@ else
 
 
 /**
- * ASR
+ * Example of ASR
  */
 void ASR_PRO(aip::Speech* client) {
     std::map<std::string, std::string> options;
@@ -115,7 +114,7 @@ void ASR_PRO(aip::Speech* client) {
 }
 
 /**
- * TTs
+ * Example of  TTs
  */
 void TTS(aip::Speech* client) {
     std::ofstream ofile;
