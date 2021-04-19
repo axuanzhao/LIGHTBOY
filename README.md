@@ -67,6 +67,7 @@ Geany,Jsoncpp,WinSCP,Putty,VNC viewer,VisualStudioGDB.
 
 <!--usage-->
 ## Usage
+### `sense light`
 For timer-sense-light, use following commands:
 
     cd /LIGHTBOY/gpio/timer-sense-light/deploy/script
